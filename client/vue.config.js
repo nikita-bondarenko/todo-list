@@ -1,5 +1,5 @@
 
-const { PORT } = require("../config")
+const { PORT } = require('../config')
 console.log('port', PORT)
 module.exports = {
   configureWebpack: {
@@ -12,5 +12,3 @@ module.exports = {
     }
   }
 }
-
-
